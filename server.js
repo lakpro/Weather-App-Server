@@ -43,6 +43,10 @@ app.use(bodyParser.urlencoded({ extended: true }));
 //   res.json({ name: "Lakshay" });
 // });
 
+app.get("/", function (req, res) {
+  res.send("Server running SUCCESSFULLY!!");
+});
+
 app.post("/", function (req, res) {
   console.log("Post request received");
   //Weather API settings
