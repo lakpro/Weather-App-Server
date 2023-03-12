@@ -69,6 +69,7 @@ app.post("/", function (req, res) {
         location: location,
         weather: weather,
         temp: temp,
+        icon: icon,
         imgUrl: imgUrl,
         error: false,
       });
